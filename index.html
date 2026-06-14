@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jayant Tomar is a DTU CSE student building high-performance C++ systems, search infrastructure, and backend tools."
+    />
+    <meta name="theme-color" content="#07080d" />
+    <meta property="og:title" content="Jayant Tomar | Systems Portfolio" />
+    <meta
+      property="og:description"
+      content="C++ systems developer, competitive programmer, and DTU CSE student."
+    />
+    <meta property="og:type" content="website" />
+    <title>Jayant Tomar | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Jayant Tomar home">
+        <span class="brand-mark"></span>
+        <span>JAYANT.TOMAR</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Wins</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">DTU CSE 2028 · Systems Builder · CP Knight</p>
+          <h1>Computer Science student building fast backend systems.</h1>
+          <p class="hero-text">
+            I am Jayant Tomar, a Computer Science student at Delhi Technological
+            University focused on C++, algorithms, and high-performance systems.
+            I like projects where raw engineering meets measurable speed.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button ghost" href="/Jayant_Tomar_Resume.pdf" target="_blank" rel="noreferrer">
+              Download Resume
+            </a>
+          </div>
+          <div class="signal-grid" aria-label="Profile highlights">
+            <div>
+              <strong>9.34</strong>
+              <span>DTU CGPA</span>
+            </div>
+            <div>
+              <strong>600+</strong>
+              <span>DSA Problems</span>
+            </div>
+            <div>
+              <strong>1885</strong>
+              <span>LeetCode Knight</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-panel" aria-label="Profile summary">
+          <div class="panel-header">
+            <span>Profile</span>
+            <span class="status-dot">CSE</span>
+          </div>
+          <div class="profile-name">
+            <span>Jayant Tomar</span>
+            <strong>Systems · Backend · Algorithms</strong>
+          </div>
+          <div class="profile-readout">
+            <p><span>Primary stack</span>C++ · Python · SQL · Web</p>
+            <p><span>Core interests</span>Search · KV Stores · Performance</p>
+            <p><span>Location</span>DTU, New Delhi</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell mission-grid" aria-label="Portfolio summary">
+        <article>
+          <span class="card-kicker">Education</span>
+          <h3>Delhi Technological University</h3>
+          <p>B.Tech in Computer Science and Engineering, 2024-2028.</p>
+          <strong>CGPA 9.34</strong>
+        </article>
+        <article>
+          <span class="card-kicker">Competitive Programming</span>
+          <h3>Algorithmic consistency</h3>
+          <p>Knight on LeetCode, Pupil on Codeforces, 3-Star on CodeChef.</p>
+          <strong>200-day streak</strong>
+        </article>
+        <article>
+          <span class="card-kicker">Systems</span>
+          <h3>Measured performance</h3>
+          <p>Built search and storage projects with benchmarks, concurrency, and real demos.</p>
+          <strong>93K+ GET ops/sec</strong>
+        </article>
+      </section>
+
+      <section id="education" class="section-shell section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </section>
+
+      <section class="section-shell education-timeline" aria-label="Education timeline">
+        <article class="education-card">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>B.Tech in Computer Science and Engineering</h3>
+            <p>Delhi Technological University, New Delhi</p>
+            <strong>2024 - 2028</strong>
+            <span>CGPA: 9.34</span>
+          </div>
+        </article>
+
+        <article class="education-card">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>Class 12th - CBSE Board</h3>
+            <p>Sidhhartha Public School, Delhi</p>
+            <strong>Apr 2022 - Mar 2024</strong>
+            <span>Grade: 95%</span>
+          </div>
+        </article>
+
+        <article class="education-card">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>Class 10th - CBSE Board</h3>
+            <p>Vikalp Public School, Rohtak, Haryana</p>
+            <strong>Apr 2013 - Mar 2022</strong>
+            <span>Grade: 97.2%</span>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" class="section-shell section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Featured projects</h2>
+      </section>
+
+      <section class="section-shell projects">
+        <article class="project-card featured">
+          <div>
+            <span class="card-kicker">C++ · BM25 · Trie · Multithreading</span>
+            <h3>Fast Mini Search Engine</h3>
+            <p>
+              A multithreaded C++ search engine with inverted indexing, BM25
+              ranking, trie autocomplete, Levenshtein spell correction, REST APIs,
+              snippet generation, document upload, and benchmark tooling.
+            </p>
+            <ul>
+              <li>Hybrid runtime ingestion with temporary disk-backed corpus.</li>
+              <li>Thread-local inverted indexes with post-merge aggregation.</li>
+              <li>2.14x indexing speedup and 0.83ms average search latency.</li>
+            </ul>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/jayanttomar596/Mini-Search-Engine-Cpp" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.youtube.com/watch?v=cc0ks_HMolY" target="_blank" rel="noreferrer">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <span class="card-kicker">C++ · TCP · Persistence</span>
+            <h3>High-Performance In-Memory Key-Value Store</h3>
+            <p>
+              A Redis-inspired key-value store with thread-safe operations,
+              WAL plus snapshot persistence, TTL expiration, master-slave
+              replication, telemetry, and graceful shutdown.
+            </p>
+            <ul>
+              <li>500+ concurrent clients with 0.305ms average latency.</li>
+              <li>55K TTL writes/sec with heap-optimized expiration.</li>
+              <li>93K+ GET ops/sec and 60K+ SET ops/sec.</li>
+            </ul>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/jayanttomar596/Mini-Redis" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://youtu.be/doOxAjvSMHA" target="_blank" rel="noreferrer">Demo</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="achievements" class="section-shell section-heading">
+        <p class="eyebrow">Achievements</p>
+        <h2>Achievements and certifications</h2>
+      </section>
+
+      <section class="section-shell achievement-grid">
+        <a href="https://drive.google.com/file/d/1dIBWwW3NqvsQKC-RkTOaOHkbh0BTBeDL/view?usp=drive_link" target="_blank" rel="noreferrer">
+          <span class="achievement-icon">★</span>
+          <h3>Top 12 Finalist - Hack-LLM</h3>
+          <p>Selected among the top finalists in a 24-hour hackathon at IIIT Delhi.</p>
+        </a>
+        <a href="https://www.hackerrank.com/contests/goldman-sachs-india-hackathon-2026-cs/leaderboard" target="_blank" rel="noreferrer">
+          <span class="achievement-icon">★</span>
+          <h3>Goldman Sachs India Hackathon 2026-CS</h3>
+          <p>Secured All India Rank 1127 in the national leaderboard.</p>
+        </a>
+        <div>
+          <span class="achievement-icon">★</span>
+          <h3>JEE Advanced & Mains 2024</h3>
+          <p>AIR 10,987 in JEE Advanced and 99.27 percentile in JEE Mains.</p>
+        </div>
+        <div>
+          <span class="achievement-icon">★</span>
+          <h3>100/100 in CBSE Board Exams</h3>
+          <p>Scored full marks in both Class 10th and Class 12th CBSE Board exams.</p>
+        </div>
+        <div>
+          <span class="achievement-icon">★</span>
+          <h3>Competitive Programming</h3>
+          <p>Knight at LeetCode, Pupil at Codeforces, 3-Star at CodeChef, and 600+ DSA problems solved.</p>
+        </div>
+        <div>
+          <span class="achievement-icon">★</span>
+          <h3>21 KM Marathon Runner</h3>
+          <p>Completed a 21 KM marathon, reflecting consistency, discipline, and endurance.</p>
+        </div>
+        <a href="https://www.coursera.org/account/accomplishments/specialization/SNPLU0SD07DR" target="_blank" rel="noreferrer">
+          <span class="achievement-icon">★</span>
+          <h3>Stanford Algorithms Specialization</h3>
+          <p>Completed the Stanford University Algorithms Specialization on Coursera.</p>
+        </a>
+        <a href="https://www.coursera.org/account/accomplishments/specialization/3PFZAJ7YZ8G7" target="_blank" rel="noreferrer">
+          <span class="achievement-icon">★</span>
+          <h3>Machine Learning Specialization</h3>
+          <p>Completed Andrew Ng's Machine Learning Specialization.</p>
+        </a>
+      </section>
+
+      <section id="skills" class="section-shell section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical stack</h2>
+      </section>
+
+      <section class="section-shell skills-grid">
+        <article>
+          <h3>Languages</h3>
+          <p>C, C++, Python, SQL, HTML, CSS</p>
+        </article>
+        <article>
+          <h3>CS Fundamentals</h3>
+          <p>Data Structures, Algorithms, OOP, OS, DBMS, Computer Networks</p>
+        </article>
+        <article>
+          <h3>Developer Tools</h3>
+          <p>Git, VS Code, Visual Studio, MySQL, JupyterLab, Kaggle, Colab</p>
+        </article>
+        <article>
+          <h3>Leadership</h3>
+          <p>Software Division Member at UGV-DTU, contributing to robotics testing and debugging.</p>
+        </article>
+      </section>
+
+      <section id="contact" class="section-shell contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+          <p>
+            Have a question or want to collaborate? Feel free to reach out.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:jayanttomar596@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/jayanttomar/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/jayanttomar596" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="/Jayant_Tomar_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Designed and built by Jayant Tomar.</span>
+      <span>Rohtak, Haryana · DTU New Delhi</span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
