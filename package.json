@@ -5,7 +5,7 @@
   "description": "Vercel-ready portfolio for Jayant Tomar.",
   "scripts": {
     "dev": "python3 -m http.server 5173",
-    "build": "rm -rf dist && mkdir -p dist && cp index.html dist/ && cp -R src dist/src && cp -R public/. dist/",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html dist/ && cp -R src dist/src && cp -R public/. dist/ && cp -R assets dist/assets/",
     "preview": "python3 -m http.server 4173 --directory dist"
   }
 }
